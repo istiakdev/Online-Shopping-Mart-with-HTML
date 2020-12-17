@@ -1,0 +1,77 @@
+body ,html {
+	
+	margin  	: 0;
+	padding 	: 0;
+	
+
+}
+/*------images---------	*/
+
+.banner{
+	background-image: url("../images/banners/2.jpg");
+	min-height: 500px;
+}
+
+.img1{
+	background-image: url("../images/banners/rest.jpg");
+	min-height: 400px;
+}
+.img2{
+	background-image: url("../images/banners/deal2.jpg");
+	min-height: 400px;
+}
+
+.img3{
+	background-image: url("../images/banners/rvw2.png");
+	min-height: 400px;
+}
+.img1 , .banner ,.img2 ,.img3{
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	opacity: .95;
+}
+
+/*---------CONTENTS------------------*/
+/*-----WELCOME (sec1)------*/
+#welc{
+	border-bottom: 1px solid gray;
+	margin: 0px 450px;
+	width: 300px;
+	letter-spacing: 5px;
+}
+
+/*------SECTIONS-----------*/
+.sec1 , .sec2 , .sec3 , .sec4{
+	width: 1200px;
+	position: relative;
+	margin: 0px 0px;
+	text-align: center;
+	padding: 50px 80px;
+	background-color: white;
+	box-shadow: 0px 10px 30px black;
+	font-family: 'Georgia' ;
+}
+
+/*-----HEADER of Sections----------*/
+.igtxt {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	top: 150px;
+	letter-spacing: 8px;
+	position: relative;
+	font-family: 'Impact';	
+}
+.igtxt > span {
+	box-shadow: 1px 1px 20px black;
+}
+.igtxt > span > a{
+	text-decoration: none;
+	color: white;
+}
+.igtxt > span > a:hover{
+	color: gray;
+}
+/*--------END OF CONTENTS----------------*/
